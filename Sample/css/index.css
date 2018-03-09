@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 }
 
 header {
-  border: 1px solid black;
+  background: dimgrey;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -20,29 +21,32 @@ header nav {
 }
 
 section {
-  border: 1px solid black;
+  background: black;
   display: flex;
-  height: 400px;
+  height: 500px;
   text-align: center;
 }
 
 main {
-  border: 1px solid black;
+  background: skyblue;
   flex-basis: 20%;
+  padding-top: 5px;
 }
 
 article {
-  border: 1px solid black;
+  background: royalblue;
   flex-basis: 60%;
+  padding-top: 5px;
 }
 
 aside {
-  border: 1px solid black;
+  background: purple;
   flex-basis: 20%;
+  padding-top: 5px;
 }
 
 footer {
-  border: 1px solid black;
+  background: dimgrey;
   padding: 20px;
   text-align: center;
 }
