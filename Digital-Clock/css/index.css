@@ -1,5 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0
+}
+
+body {
+  background:linear-gradient(to right, #0D8BC2, #0DC280);
+}
+
+header {
+  background: #ddd;
+  height: 150px;
+  margin: 100px auto;
+  padding: 30px;
+  position: relative;
+  width: 330px;
+}
+
+h1 {
+  background: #F59120;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  left: 37%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 85px;
+}
+
+main {
+  background: aliceblue;
+  border-radius: 4px;
+  font-family: Orbitron;
+  font-size: 35px;
+  height: 100%;
+  padding: 25px;
+  text-align: center;
+  width: 100%;
 }
